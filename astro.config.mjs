@@ -1,4 +1,9 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
+import elmPlugin from "vite-plugin-elm";
 
 // https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  vite: {
+    plugins: [elmPlugin()],
+  },
+});
