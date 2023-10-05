@@ -1,3 +1,7 @@
+# Astro + Elm + HTMX
+
+## Because why not?
+
 # Astro Starter Kit: Basics
 
 ```sh
